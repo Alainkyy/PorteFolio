@@ -1,0 +1,49 @@
+.header {
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 20px;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    max-width: 40%;
+}
+
+.navigation {
+    flex-grow: 1; /* Fait croître la barre de navigation pour occuper tout l'espace restant */
+    display: flex;
+    justify-content: space-between; /* Centre horizontalement les éléments de la navigation */
+    align-items: flex-start;
+    margin-top: 65px;
+    
+}
+
+.navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navigation ul li {
+    margin-left: 100px; /* Ajustez l'espacement entre les éléments */
+}
+
+.navigation ul li:first-child {
+    margin-left: 180px; /* Supprimer la marge à gauche du premier élément */
+}
+
+.navigation ul li:last-child {
+    margin-left: 95px; /* Décaler légèrement vers la gauche le dernier bouton */
+}
+.navigation ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
