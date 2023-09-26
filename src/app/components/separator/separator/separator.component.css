@@ -1,0 +1,8 @@
+.separateur-Hero {
+    display: flex;
+    flex-direction: row; 
+    align-items: center; 
+    justify-content: center;
+    background-color: #101E2E;
+    padding: 30px;
+}
